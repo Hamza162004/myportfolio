@@ -1,0 +1,58 @@
+.about-h1{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+.card{
+    height: 165px;
+    width: 300px;
+    margin: 40px 20px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 5;
+}
+
+.card:hover{
+    height: 240px;
+    margin: 0px 20px;
+}
+
+.card-image{
+    position: absolute;
+    top: 20px;
+    width: 100px;;
+    transition: 0.5s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover .card-image{
+    top: -40px;
+    width: 80px;
+    background:none;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.content{
+    overflow: hidden;
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top:120px;
+    height: 50px;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+
+.card:hover .content{
+    top: 50px;
+    height: 100%;
+}
+
+.card:hover .svg{
+    display: none;
+}

@@ -1,0 +1,121 @@
+.about-h1{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+.skillbox{
+  border-radius: 80px;
+}
+.react:hover, 
+.react:focus {
+  animation: react 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes react {
+  0% { box-shadow: 0 0 0 0 lightskyblue; }
+}
+
+.js:hover, 
+.js:focus {
+  animation: js 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes js {
+  0% { box-shadow: 0 0 0 0 yellow; }
+}
+
+.html:hover, 
+.html:focus {
+  animation: html 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes html {
+  0% { box-shadow: 0 0 0 0 orangered; }
+}
+
+.mongo:hover, 
+.mongo:focus {
+  animation: mongo 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes mongo {
+  0% { box-shadow: 0 0 0 0 rgb(34, 159, 34); }
+}
+
+.bootstrap:hover, 
+.bootstrap:focus {
+  animation: bootstrap 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes bootstrap {
+  0% { box-shadow: 0 0 0 0 rgb(182, 18, 182); }
+}
+
+.express:hover, 
+.express:focus {
+  animation: express 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes express {
+  0% { box-shadow: 0 0 0 0 grey; }
+}
+
+.css:hover, 
+.css:focus {
+  animation: css 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes css {
+  0% { box-shadow: 0 0 0 0 rgb(22, 103, 184); }
+}
+
+.tailwind:hover, 
+.tailwind:focus {
+  animation: tailwind 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes tailwind {
+  0% { box-shadow: 0 0 0 0 rgb(14, 235, 255); }
+}
+
+.node:hover, 
+.node:focus {
+  animation: node 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes node {
+  0% { box-shadow: 0 0 0 0 rgb(146, 235, 110); }
+}
+
+.sql:hover, 
+.sql:focus {
+  animation: sql 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes sql {
+  0% { box-shadow: 0 0 0 0 rgb(231, 119, 27); }
+}
+
+.skillbox .img{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 400px;
+}
+
+@media (max-width:600px){
+  .skillbox{
+    border: none;
+    @apply mx-6 px-1
+  }
+  .about-h1{
+    @apply text-5xl
+  }
+  
+}

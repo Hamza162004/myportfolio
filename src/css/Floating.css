@@ -1,0 +1,94 @@
+.container-plus{
+    position: fixed;
+    z-index: 100;
+    bottom: 15px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.plus{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0;
+    
+    cursor: pointer;
+    z-index: 100;
+}
+
+.container-plus:hover{
+    height: 280px;
+    transition: all 0.5s;
+    overflow: visible;
+}
+
+.container-plus:hover .plus{
+    transform: translateY(5px);
+    transition: all 0.5s;
+}
+
+.img{
+    border-radius: 40px;
+}
+
+.element{
+    position: relative;
+    margin: 12px 0px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+@keyframes comein{
+    0%{
+        opacity: 0;
+    }
+    35%{
+        transform: translateX(-20px) scale(0.4);
+    }
+    70%{
+        transform: translateX(0px) scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.container-plus:hover .gmail{
+    animation: comein 0.5s forwards 0.2s;
+
+}
+.container-plus:hover .git{
+    animation: comein 0.5s forwards 0.3s;
+
+}
+.container-plus:hover .linkedin{
+    animation: comein 0.5s forwards 0.4s;
+
+}
+
+@media (max-width:500px) {
+    .container-plus{
+        width: 100px;
+        height: 100px;
+        right: 10px;
+        z-index: 200px;
+    }
+    .plus{
+        @apply w-32
+    }
+    .container-plus:hover{
+        height: 450px;
+    }
+    .element > .img{
+        @apply w-16
+    }
+}
+

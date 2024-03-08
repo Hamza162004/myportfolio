@@ -1,0 +1,53 @@
+.about::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    filter: brightness(70%);
+    background: url(../img/home/bg\ home\ option\ 1.jpg)   center center/cover;
+    opacity: 1;
+}
+
+.about-h1{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+.about-p{
+    font-family: 'Play', sans-serif;
+}
+
+.con{
+    background: url(../img//about/5111951.jpg) center center/cover;
+}
+
+@media (max-width: 800px){
+    .about{
+        @apply px-6
+    }
+    .imgdiv{
+        @apply w-72 mx-2
+    }
+    .about-h1{
+        @apply text-3xl
+    }
+    .about-p{
+        @apply text-sm
+    }
+    .cv{
+        @apply text-base w-36 py-1 px-2
+    }
+}
+
+@media (max-width : 500px) {
+    .about{
+        @apply flex-col h-[35rem]
+    }
+    .about-text{
+        text-align: center;
+        @apply w-[90%]
+        
+    }
+}

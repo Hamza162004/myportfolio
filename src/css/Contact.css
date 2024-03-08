@@ -1,0 +1,76 @@
+.contact::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    filter: brightness(70%);
+    background: url(../img/home/bg\ home\ option\ 1.jpg)   center center/cover;
+    opacity: 1;
+}
+.contact{
+    height: 80vh;
+}
+
+.about-h1{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+.labels{
+    font-size: 16px;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+
+.btn{
+    @apply bg-purple-900 
+}
+
+.btn:hover{
+    @apply bg-transparent
+}
+
+@media  (max-width : 800px) {
+    form .btn {
+        @apply w-32 text-base py-1 mx-2
+    
+    }
+    .img-con > img{
+        @apply w-72
+    }
+    .contact{
+        @apply px-6
+    }
+    .contact-h1{
+        @apply text-4xl
+    }
+   
+}
+
+@media (max-width : 600px) {
+    .img-con{
+        display: none;
+    }
+    .img-con > .img{
+        display: none;
+    }
+    .contact-h1{
+        @apply text-4xl my-5
+    }
+    .contact{
+        @apply px-0
+    }
+    .form-con{
+        width: 90vh;
+    }
+}
+
+.contact-h1{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+@media (min-height : 650px) {
+    
+}
