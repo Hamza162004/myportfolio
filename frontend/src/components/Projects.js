@@ -9,6 +9,7 @@ const Projects = () => {
  
   
   return (
+    <>
     <div className='projects py-14 text-white flex justify-center items-center flex-col'>
         <h1 className='text-7xl  about-h1 font-semibold mb-10'>My Projects</h1>
         <div className="pro-con flex justify-center items-center flex-col space-y-10">
@@ -62,8 +63,9 @@ const Projects = () => {
         </div>
            
         </div>
+        
 
-    
+     </>
   )
 }
 

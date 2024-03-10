@@ -103,7 +103,7 @@
     .roller #rolltext{
       font-size: 1.7rem;
     }
-    .mylinks > button{ 
+    .mylinks > a > button{ 
       @apply text-base w-40
     }
     .astronaut{
@@ -129,7 +129,7 @@
     }
     .home-con{
       position: absolute;
-      bottom: 120px;
+      bottom: 100px;
       @apply px-2
     }
     .object{
@@ -165,6 +165,9 @@
       50%{
         top: -4.8rem;
       }
+    }
+    .mylinks > a > button{
+      @apply text-sm w-32 px-2 py-1
     }
   }
 

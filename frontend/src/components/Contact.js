@@ -22,6 +22,7 @@ const Contact = () => {
   }
 
   return (
+    <>
     <div className='contact flex justify-evenly items-center'>
       <div className='img-con'>
         <img className='w-96 img' src={contactme} alt="" />
@@ -65,6 +66,10 @@ const Contact = () => {
       </div >
 
     </div >
+    <div className='flex items-center justify-center bg-black text-white py-1 font-mono text-sm'>
+    <p>Copyrights &copy Reserved | codewithhamza 2024.</p>
+    </div>
+    </>
   )
 }
 
