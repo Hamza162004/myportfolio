@@ -6,6 +6,7 @@ const NoteState = (props) =>{
     
     const contact = async (name,email,message) =>{
         console.log('going to fetch')
+        try{
         const response = await fetch(`https://myportfolio-beta-eosin.vercel.app/contactme`, {
             method: "POST",
             headers: {
@@ -15,6 +16,9 @@ const NoteState = (props) =>{
         });
         const data = await response.json(); 
         console.log(data)
+    }catch(error){
+        console.log("Error while fetching")
+    }
     }
     
 
