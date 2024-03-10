@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import '../css/Projects.css'
 import p1 from '../img/projects/p1.jpg'
 import p2 from '../img/projects/p2.jpg'
@@ -6,11 +6,7 @@ import p3 from '../img/projects/p3.jpg'
 import git from '../img/contact/git-w-removebg-preview.png'
 
 const Projects = () => {
-  var l = 0;
-  useEffect(()=>{
-   l = document.body.scrollHeight;
-    console.log(l)
-  },[])
+ 
   
   return (
     <div className='projects py-14 text-white flex justify-center items-center flex-col'>

@@ -30,9 +30,13 @@ app.post('/contactme',[
         name : req.body.name,
         email : req.body.email,
         message : req.body.message,
+    }).then(()=>{
+        res.status(200).json("Response was stored succesfully")
+    }).catch(()=>{
+        res.status(400).json("Response was not stored")
+
     })
 
-    res.status(200).json("Response was stores succesfully")
 
 })
 
