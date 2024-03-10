@@ -1,5 +1,7 @@
+require('dotenv').config({path : "./.env"})
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb://0.0.0.0:27017/myPortfolio'
+const mongoURI = process.env.MONGO_URI;
+
 
 const connectToMongo = () =>{
     mongoose.connect(mongoURI )

@@ -101,7 +101,7 @@
     }
   }
 
-  @media (max-width:1030px){
+  @media screen  and (max-width:1030px){
     .h1{
       font-size: 3rem;
     }
@@ -117,7 +117,7 @@
 
   }
 
-  @media (max-width : 850px) {
+  @media screen and (max-width : 850px) {
     .object{
       display: none;
     }
@@ -126,7 +126,7 @@
     }
   }
 
-  @media (max-width:630px) {
+  @media screen and (max-width:630px) {
     .home{
       @apply px-1
     }

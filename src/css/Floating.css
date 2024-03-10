@@ -74,10 +74,10 @@
 
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
     .container-plus{
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         right: 10px;
         z-index: 200px;
     }
@@ -85,10 +85,13 @@
         @apply w-32
     }
     .container-plus:hover{
-        height: 450px;
+        height: 480px;
     }
-    .element > .img{
+    .element > a > img{
         @apply w-16
+    }
+    .element{
+        margin: none;
     }
 }
 

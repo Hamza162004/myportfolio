@@ -2,7 +2,7 @@ import '../css/Floating.css'
 import plus from '../img/contact/plus-button.png'
 import git from '../img/contact/github.png'
 import gmail from '../img/contact/email.png'
-import linkedin from '../img/contact/social.png'
+import linkedin from '../img/contact/linkedin.png'
 import React from 'react'
 
 const Floating = () => {
@@ -13,10 +13,10 @@ const Floating = () => {
         </div>
         <div className="elements">
             <div className="element gmail">
-                <a href="" target='_blank'><img className='img bg-white w-10 ' src={gmail} alt="" /></a>
+                <a rel="noreferrer" href="mailto:hj162004@gmail.com"  target='_blank'><img className='img  w-10 ' src={gmail} alt="" /></a>
             </div>
             <div className="element git">
-                <a rel="noreferrer" href="https://github.com/Hamza162004" target='_blank'><img className='bg-white img w-10' src={git} alt="" /></a>
+                <a rel="noreferrer" href="https://github.com/Hamza162004" target='_blank'><img className=' img w-10' src={git} alt="" /></a>
             </div>
             <div className="element linkedin">
                 <a rel="noreferrer" target='_blank' href="https://www.linkedin.com/in/hamza-javed-40a390266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img className='img w-10' src={linkedin} alt="" /></a>

@@ -23,7 +23,7 @@
     background: url(../img//about/5111951.jpg) center center/cover;
 }
 
-@media (max-width: 800px){
+@media screen and (max-width: 800px){
     .about{
         @apply px-6
     }
@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-width : 500px) {
+@media screen and (max-width : 500px) {
     .about{
         @apply flex-col h-[35rem]
     }

@@ -24,7 +24,7 @@
     display: none;
 }
 
-@media (max-width:900px) {
+@media screen and (max-width:900px) {
     .logo{
         @apply text-2xl
     }
@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width : 780px) {
+@media screen and (max-width : 780px) {
     .menu-div{
         display: block;
     }

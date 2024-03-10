@@ -50,7 +50,7 @@
 }
 
 
-@media (max-width:950px ){
+@media screen and (max-width:950px ){
     .about-h1{
         @apply text-6xl 
     }
@@ -87,7 +87,7 @@
     }
 }
 
-@media (max-width:780px) {
+@media screen and (max-width:780px) {
     .about-h1{
         @apply text-5xl px-2
     }
@@ -136,7 +136,7 @@
 
 
 
-@media (min-height:600px) {
+@media screen and (min-height:600px) {
     .projects::before {
         content: "";
         position: absolute;
@@ -152,7 +152,7 @@
     
 }
 
-@media (min-height:800px) {
+@media screen and (min-height:800px) {
     .projects::before {
         content: "";
         position: absolute;

@@ -1,6 +1,5 @@
 import React from 'react'
 import astronaut from '../img/home/astronaut.png'
-import a from '../img/home/4000_2_03_prev_ui.png'
 import '../css/Home.css'
 
 const Home = () => {

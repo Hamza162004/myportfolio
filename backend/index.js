@@ -1,11 +1,10 @@
 const connectToMongo = require('./db');
+connectToMongo();
 const express = require('express');
 const { body, validationResult } = require('express-validator');
 const User = require('./models/User')
 const cors = require('cors')
 
-
-connectToMongo();
 const app = express()
 const port = 5000;
 
