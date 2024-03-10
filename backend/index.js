@@ -15,6 +15,10 @@ app.get('/',(req,res)=>{
     res.send("Backend working")
 })
 
+app.get('/contactme',(req,res)=>{
+    res.send("Contact working")
+})
+
 app.post('/contactme',[
     body('email','Enter a valid email').isEmail(),
     body('name','Enter a valid name').isLength({min:3}),
