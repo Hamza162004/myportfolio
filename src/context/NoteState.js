@@ -6,7 +6,7 @@ const NoteState = (props) =>{
     
     const contact = async (name,email,message) =>{
         console.log('going to fetch')
-        const response = await fetch(`http://localhost:5000/contactme`, {
+        const response = await fetch(`https://myportfolio-beta-eosin.vercel.app/`, {
             method: "POST",
             headers: {
             "Content-Type": "application/json"

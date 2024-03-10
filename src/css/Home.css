@@ -52,13 +52,7 @@
   }
   
   
-  #spare-time{
-    font-size: 1rem;
-    letter-spacing: 1rem;
-    margin-top: 0;
-    color: #A8DADC;
-    
-  }
+
   
   .roller #rolltext {
     position: absolute;
@@ -88,8 +82,9 @@
 .object {
     animation: MoveUpDown 5s linear infinite;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
   }
   
   @keyframes MoveUpDown {
@@ -118,11 +113,13 @@
   }
 
   @media screen and (max-width : 850px) {
-    .object{
-      display: none;
-    }
     .home{
       @apply justify-center
+    }
+    .object{
+      position: absolute;
+      left: 0px;
+      right: 0px;
     }
   }
 
@@ -130,29 +127,45 @@
     .home{
       @apply px-1
     }
-    
+    .home-con{
+      position: absolute;
+      bottom: 120px;
+      @apply px-2
+    }
+    .object{
+      flex-direction: column;
+      @apply mx-0 my-3 
+    }
+    .main > .h1{
+        @apply text-5xl
+    }
+   
+    .object > .astronaut{
+      @apply w-72
+    }
+    .roller{
+      height: 2rem;
+      line-height: 2rem;
+      @apply mt-4
+    }
+    .roller #rolltext{
+      animation: slide2 6s infinite;  
+      display: flex;
+      height: 1rem;
+      @apply text-3xl 
+    }
+   
+    @keyframes slide2 {
+      0%{
+        top:0;
+      }
+      25%{
+        top: -2.5rem;    
+      }
+      50%{
+        top: -4.8rem;
+      }
+    }
   }
 
  
-/* 
-.asst{
-  animation: rotate 15s linear infinite ;
-}
-
-@keyframes rotate {
-  0%{
-    transform: rotate(0deg);
-  }
-  25%{
-    transform: rotate(45deg);
-  }
-  50%{
-    transform: rotate(90deg);
-  }
-  75%{
-    transform: rotate(45deg);
-  }
-  100%{
-    transform: rotate(0deg);
-  }
-} */

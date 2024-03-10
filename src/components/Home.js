@@ -6,10 +6,10 @@ const Home = () => {
   
   return (
     <>
-      <div className='h-[100vh] home flex justify-between items-center'>
-        <div className="flex flex-col items-center justify-center text-white px-16 h-[100%]" >
+      <div className='h-[85vh] home flex justify-between items-center'>
+        <div className="flex home-con flex-col items-center justify-center text-white px-16 " >
           <div class="main">
-            <h1 className='h1'>Hi! I'm Hamza Javed
+            <h1 className='h1'>Hi! I'm  Hamza Javed
               <div class="roller">
                 <span id="rolltext">
                   Frontend Developer<br />
@@ -27,9 +27,6 @@ const Home = () => {
         <div className='object flex items-center mx-10'>
           <img src={astronaut} className='w-96 astronaut' alt="" />
         </div>
-        {/* <div className="flex items-center mx-10">
-          <img src={a} alt="" className='w-96 p-5 asst' />
-        </div> */}
       </div>
 
     </>

@@ -82,13 +82,13 @@
         z-index: 200px;
     }
     .plus{
-        @apply w-32
+        @apply w-24
     }
     .container-plus:hover{
         height: 480px;
     }
     .element > a > img{
-        @apply w-16
+        @apply w-14
     }
     .element{
         margin: none;
