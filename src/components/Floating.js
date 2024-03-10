@@ -13,13 +13,13 @@ const Floating = () => {
         </div>
         <div className="elements">
             <div className="element gmail">
-                <a href=""><img className='img w-10 ' src={gmail} alt="" /></a>
+                <a href="" target='_blank'><img className='img bg-white w-10 ' src={gmail} alt="" /></a>
             </div>
             <div className="element git">
-                <a href=""><img className='img w-10' src={git} alt="" /></a>
+                <a rel="noreferrer" href="https://github.com/Hamza162004" target='_blank'><img className='bg-white img w-10' src={git} alt="" /></a>
             </div>
             <div className="element linkedin">
-                <a target='_blank' href="https://www.linkedin.com/in/hamza-javed-40a390266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img className='img w-10' src={linkedin} alt="" /></a>
+                <a rel="noreferrer" target='_blank' href="https://www.linkedin.com/in/hamza-javed-40a390266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img className='img w-10' src={linkedin} alt="" /></a>
             </div> 
         </div>   
     </div>

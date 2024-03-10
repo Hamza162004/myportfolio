@@ -4,7 +4,7 @@
     z-index: -1;
     top: 0px;
     left: 0px;
-    height: 1100px;
+    height: 1200px;
     width: 100%;
     filter: brightness(70%);
     background: url(../img/home/bg\ home\ option\ 1.jpg) no-repeat center center/cover;
@@ -29,7 +29,7 @@
     z-index: 5;
 }
 
-.project-des{
+.project-des-r{
     backdrop-filter: blur(30px);
     position: relative;
     right: 150px;
@@ -37,5 +37,133 @@
 
 }
 
+.project-des-l{
+    backdrop-filter: blur(30px);
+    position: relative;
+    right: 150px;
+    font-family: 'Play', sans-serif;
+
+}
+
+.git-icon:hover{
+    filter: invert(1);
+}
 
 
+@media (max-width:950px ){
+    .about-h1{
+        @apply text-6xl 
+    }
+    .project{
+        @apply w-[40rem]
+    }
+    .project-des-r{
+        @apply w-[30rem]
+    }
+    .project-des-r p{
+        @apply w-[22rem]
+    }
+    .project-des-l{
+        @apply w-[30rem] 
+    }
+    .project-des-l p{
+        @apply w-[22rem]
+    }
+    .tech-div{
+        @apply space-x-7
+    }
+    .p-t{
+        @apply text-3xl
+    }
+    .project-img-r{
+        left: 420px;
+        top: -20px;
+        @apply w-44 h-36
+    }
+
+    .project-img-l{
+        top: -20px;
+        @apply w-44 h-36
+    }
+}
+
+@media (max-width:780px) {
+    .about-h1{
+        @apply text-5xl px-2
+    }
+    .projects > h1{
+        @apply my-5
+    }
+    .pro-con{
+        @apply space-y-3
+    }
+    .project{
+        @apply flex-col ml-0 items-center justify-center w-[100%] px-6
+    }
+    .project-img-r{
+        left : 0px;
+        right: 0px;
+        top:60px;
+        @apply w-56
+    }
+    .project-img-l{
+        right: 0px;
+        left: 0px;
+        top: 60px;
+        @apply w-56
+
+    }
+    .project-des-l{
+        right: 0px;
+        @apply px-5 pt-20 w-[100%]
+    }
+    .project-des-r{
+        right: 0px;
+        @apply px-5 pt-20 w-[100%]
+    }
+    .project p{
+        width: 100%;
+        @apply pb-2
+    }
+    .gitatl{
+        @apply justify-end
+    }
+    .tech-div{
+        @apply space-x-4 text-sm
+    }
+    
+}
+
+
+
+@media (min-height:600px) {
+    .projects::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        left: 0px;
+        height: 2000px;
+        width: 100%;
+        filter: brightness(70%);
+        background: url(../img/home/bg\ home\ option\ 1.jpg) no-repeat center center/cover;
+        opacity: 1;
+    }
+    
+}
+
+@media (min-height:800px) {
+    .projects::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        left: 0px;
+        height: 1800px;
+        width: 100%;
+        filter: brightness(70%);
+        background: url(../img/home/bg\ home\ option\ 1.jpg) no-repeat center center/cover;
+        opacity: 1;
+    }
+    
+}

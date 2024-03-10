@@ -9,7 +9,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const changebg = ()=>{
-    if(window.scrollY >= 40){
+    if(window.scrollY >= 40 && window.innerWidth >780){
       setbg(true)
     }else{
       setbg(false)

@@ -79,43 +79,7 @@
     }
   }
   
-  @media screen and (max-width: 600px){
-    .h1{
-    text-align:center;
-    text-transform: uppercase;
-    color: #F1FAEE; 
-    font-size: 2.125rem;
-  }
-    
-    .roller{
-    height: 2.6rem; 
-    line-height: 2.125rem;  
-    }
-    
-    #spare-time {
-      font-size: 1rem;
-      letter-spacing: 0.1rem;
-    }
-    
-    .roller #rolltext {  
-    animation: slide-mob 8s infinite;  
-  }
-    
-    @keyframes slide-mob {
-    0%{
-      top:0;
-    }
-    25%{
-      top: -2.125rem;    
-    }
-    50%{
-      top: -4.25rem;
-    }
-    72.5%{
-      top: -6.375rem;
-    }
-  }
-  }
+ 
   
   
   
@@ -139,10 +103,10 @@
 
   @media (max-width:1030px){
     .h1{
-      font-size: 2.7rem;
+      font-size: 3rem;
     }
-    #rolltext{
-      font-size: 1.8rem;
+    .roller #rolltext{
+      font-size: 1.7rem;
     }
     .mylinks > button{ 
       @apply text-base w-40
@@ -153,10 +117,24 @@
 
   }
 
-  @media (max-width: 450px) {
+  @media (max-width : 850px) {
+    .object{
+      display: none;
+    }
+    .home{
+      @apply justify-center
+    }
+  }
+
+  @media (max-width:630px) {
+    .home{
+      @apply px-1
+    }
     
   }
 
+ 
+/* 
 .asst{
   animation: rotate 15s linear infinite ;
 }
@@ -177,4 +155,4 @@
   100%{
     transform: rotate(0deg);
   }
-}
+} */
