@@ -39,6 +39,9 @@
     .cv{
         @apply text-base w-36 py-1 px-2
     }
+    .dimg{
+        @apply w-8
+    }
 }
 
 @media screen and (max-width : 500px) {
@@ -49,5 +52,11 @@
         text-align: center;
         @apply w-[90%]
         
+    }
+    .dimg{
+        @apply w-6
+    }
+    .dspan{
+        @apply text-xs
     }
 }

@@ -24,11 +24,11 @@ const About = () => {
     <div className='bg-black text-white font-mono py-2 flex items-center justify-evenly'>
         <div className="contact-div flex items-center justify-center space-x-4">
             <img className='dimg w-10' src={contact} alt="" />
-            <span>+92-3223157477</span>
+            <span className='dspan'>+92-3223157477</span>
         </div>
         <div className="email-div flex items-center justify-center space-x-4">
               <img className='dimg w-10' src={gmail} alt="" />
-              <span>hj162004@gmail.com</span>
+              <span className='dspan'>hj162004@gmail.com</span>
         </div>
     </div>
     <div className=' con py-10 justify-center  flex flex-col'>

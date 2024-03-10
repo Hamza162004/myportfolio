@@ -129,12 +129,12 @@
     }
     .home-con{
       position: absolute;
-      bottom: 100px;
+      bottom: 80px;
       @apply px-2
     }
     .object{
       flex-direction: column;
-      @apply mx-0 my-3 
+      @apply mx-0 
     }
     .main > .h1{
         @apply text-5xl
@@ -167,7 +167,7 @@
       }
     }
     .mylinks > a > button{
-      @apply text-sm w-32 px-2 py-1
+      @apply text-xs w-[7rem] px-1 py-1
     }
   }
 
