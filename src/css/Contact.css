@@ -11,11 +11,12 @@
     opacity: 1;
 }
 .contact{
-    height: 80vh;
+    height: 85vh;
 }
 
 .about-h1{
     font-family: 'Rubik Doodle Shadow', system-ui;
+    @apply mb-10
 }
 
 .labels{
@@ -57,7 +58,7 @@
         display: none;
     }
     .contact-h1{
-        @apply text-4xl my-5
+        @apply text-[6vh] my-5 mb-14
     }
     .contact{
         @apply px-0
@@ -71,6 +72,3 @@
     font-family: 'Rubik Doodle Shadow', system-ui;
 }
 
-@media screen and (min-height : 650px) {
-    
-}

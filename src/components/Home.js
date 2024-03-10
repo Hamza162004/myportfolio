@@ -20,8 +20,8 @@ const Home = () => {
             </h1>
           </div>
           <div className="mylinks">
-            <button className='bg-none border-2 font-mono py-2 px-3 text-xl m-3 w-60 cursor-pointer my-10 rounded-md hover:bg-purple-900 hover:text-white hover:border-purple-900 '>Learn About me </button>
-            <button className=' border-2 font-mono py-2 px-3 text-xl m-3 w-60 cursor-pointer my-10 rounded-md bg-purple-900 text-white border-purple-900 hover:bg-transparent hover:border-white'>Contact Me</button>
+            <a href="/about"><button className='bg-none border-2 font-mono py-2 px-3 text-xl m-3 w-60 cursor-pointer my-10 rounded-md hover:bg-purple-900 hover:text-white hover:border-purple-900 '>Learn About me </button></a>
+            <a href="/contact"><button className=' border-2 font-mono py-2 px-3 text-xl m-3 w-60 cursor-pointer my-10 rounded-md bg-purple-900 text-white border-purple-900 hover:bg-transparent hover:border-white'>Contact Me</button></a>
           </div>
         </div>
         <div className='object flex items-center mx-10'>
