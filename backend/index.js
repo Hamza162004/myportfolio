@@ -30,16 +30,19 @@ app.post('/contactme',[
         return res.status(400).json({Errors : result.array()})
     }
 
-    await User.create({
-        name : req.body.name,
-        email : req.body.email,
-        message : req.body.message,
-    }).then(()=>{
-        res.status(200).json("Response was stored succesfully")
-    }).catch(()=>{
-        res.status(400).json("Response was not stored")
+    try{
+        await User.create({
+            name : req.body.name,
+            email : req.body.email,
+            message : req.body.message,
+        })
+        console.log('Response was stored')
+    }
+    catch(e){
+        console.log("Response was not stored")
+    }
 
-    })
+    
 
 
 })
