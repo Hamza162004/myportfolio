@@ -31,7 +31,7 @@ app.post('/contactme',[
     }
 
     try{
-        await User.create({
+        User.create({
             name : req.body.name,
             email : req.body.email,
             message : req.body.message,
