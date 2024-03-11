@@ -173,7 +173,7 @@
       @apply h-[30vh]
     }
     .object > .astronaut{
-      @apply w-[30vh]
+      @apply w-[25vh]
     }
   }
 
