@@ -11,7 +11,7 @@
     opacity: 1;
 }
 .contact{
-    height: 80vh;
+    height: 85vh;
 }
 
 .about-h1{
@@ -61,7 +61,7 @@
         @apply text-[6vh] my-5 mb-14
     }
     .contact{
-        @apply px-0
+        @apply px-0 h-[75vh]
     }
     .form-con{
         width: 90vh;

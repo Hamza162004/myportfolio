@@ -125,11 +125,11 @@
 
   @media screen and (max-width:630px) {
     .home{
-      @apply px-1
+      @apply px-1 h-[75vh]
     }
     .home-con{
       position: absolute;
-      bottom: 60px;
+      bottom: 100px;
       @apply px-2
     }
     .object{
@@ -167,7 +167,7 @@
       }
     }
     .mylinks > a > button{
-      @apply text-xs w-[8rem] px-1 py-2
+      @apply text-xs w-[8rem] px-1 py-2 mb-0
     }
     .object{
       @apply h-[30vh]
