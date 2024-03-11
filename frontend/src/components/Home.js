@@ -12,8 +12,8 @@ const Home = () => {
             <h1 className='h1'>Hi! I'm  Hamza Javed
               <div class="roller">
                 <span id="rolltext">
+                  MERN Developer<br />
                   Frontend Developer<br />
-                  Backend Developer<br />
                   Full-Stack Developer<br />
                 </span>
               </div>

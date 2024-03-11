@@ -24,7 +24,7 @@
 }
 
 .container-plus:hover{
-    height: 280px;
+    height: 290px;
     transition: all 0.5s;
     overflow: visible;
 }
@@ -40,7 +40,7 @@
 
 .element{
     position: relative;
-    margin: 12px 0px;
+    margin: 2px 0px;
     cursor: pointer;
     opacity: 0;
 }

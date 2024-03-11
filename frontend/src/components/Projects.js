@@ -25,7 +25,7 @@ const Projects = () => {
                   </div>
                   <p className='text-sm'>A notes keeping website which facilitates the user as they can create, view, delete and edit their notes. The web app provides security to user notes using encryption techniques. MERN stack was used for frontend and backend development.</p>
                   <div className='flex w-[100%] justify-end '>
-                    <a rel="noreferrer" href="https://github.com/Hamza162004/inotebook.git" target='_blank'></a><img className='w-10 git-icon rounded-full cursor-pointer pb-2' src={git} alt="" />
+                    <a rel="noreferrer" href="https://github.com/Hamza162004/inotebook.git" target='_blank'><img className='w-10 git-icon rounded-full cursor-pointer pb-2' src={git} alt="" /></a>
                   </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ const Projects = () => {
                   </div>
                   <p className='text-sm'>A clothing website where owner can add products to sell in different categories. User can search, sort and order products from the site.Vanilla JS was used for frontend while nodejs was used for backend. All the products and order information was stored in MongoDB. </p>
                   <div className='flex w-[100%]  gitatl'>
-                    <a rel="noreferrer" href="https://github.com/Hamza162004/E-commerce-Web.git" target='_blank'></a><img className='w-10 git-icon rounded-full cursor-pointer pb-2' src={git} alt="" />
+                    <a rel="noreferrer" href="https://github.com/Hamza162004/E-commerce-Web.git" target='_blank'><img className='w-10 git-icon rounded-full cursor-pointer pb-2' src={git} alt="" /></a>
                   </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ const Projects = () => {
                   </div>
                   <p className='text-sm'>Website makes use of API to get the latest news from from around the globe and display them to user. User can view news from different categories based on their interest. ReactJs was used for frontend while nodejs for backend development.</p>
                   <div className='flex w-[100%] justify-end '>
-                    <a rel="noreferrer" href="https://github.com/Hamza162004/Newsapp.git" target='_blank'></a><img className='w-10 git-icon rounded-full cursor-pointer pb-2' src={git} alt="" />
+                    <a rel="noreferrer" href="https://github.com/Hamza162004/Newsapp.git" target='_blank'><img className='w-10 git-icon rounded-full cursor-pointer pb-2' src={git} alt="" /></a>
                   </div>
                 </div>
             </div>
