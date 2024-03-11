@@ -23,14 +23,14 @@ app.post('/contactme',[
     body('email','Enter a valid email').isEmail(),
     body('name','Enter a valid name').isLength({min:3}),
     body('message','Enter a non empty message').isLength({min:1})
-],(req,res)=>{
+], async (req,res)=>{
 
     const result = validationResult(req);
     if(!result.isEmpty()){
         return res.status(400).json({Errors : result.array()})
     }
 
-    User.create({
+    await User.create({
         name : req.body.name,
         email : req.body.email,
         message : req.body.message,
