@@ -66,9 +66,7 @@ const Contact = () => {
       </div >
 
     </div >
-    <div className='flex items-center justify-center bg-black text-white py-1 font-mono text-sm'>
-    <p>Copyrights &copy Reserved | codewithhamza 2024.</p>
-    </div>
+    
     </>
   )
 }

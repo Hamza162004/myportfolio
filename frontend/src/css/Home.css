@@ -167,7 +167,13 @@
       }
     }
     .mylinks > a > button{
-      @apply text-xs w-[7rem] px-1 py-1
+      @apply text-xs w-[8rem] px-1 py-2
+    }
+    .object{
+      @apply h-[30vh]
+    }
+    .object > .astronaut{
+      @apply w-[30vh]
     }
   }
 
