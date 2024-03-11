@@ -129,7 +129,7 @@
     }
     .home-con{
       position: absolute;
-      bottom: 80px;
+      bottom: 60px;
       @apply px-2
     }
     .object{
