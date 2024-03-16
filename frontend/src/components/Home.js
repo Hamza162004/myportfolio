@@ -24,7 +24,7 @@ const Home = () => {
             <a href="/contact"><button className=' border-2 font-mono py-2 px-3 text-xl m-3 w-60 cursor-pointer my-10 rounded-md bg-purple-900 text-white border-purple-900 hover:bg-transparent hover:border-white'>Contact Me</button></a>
           </div>
         </div>
-        <div className='object flex items-center mx-10'>
+        <div className=' object flex items-center mx-10'>
           <img src={astronaut} className='w-96 astronaut' alt="" />
         </div>
       </div>
