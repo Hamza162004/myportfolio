@@ -32,7 +32,7 @@ const Skills = () => {
                 }
             }
         );
-        console.log(isIntersecting)
+        
         observer.observe(ref.current);
         return () => observer.disconnect();
     },[isIntersecting])
