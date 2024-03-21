@@ -15,7 +15,7 @@ const Services = () => {
                     <img className='card-image ' src={coding} alt="" />
                     <div className="content">
                         <div className='flex flex-col items-center justify-center '>
-                            <h1 className='text-2xl font-semibold my-1 sm:text-base'>Website Development</h1>
+                            <h1 className='text-base font-semibold my-1 md:text-1xl'>Website Development</h1>
                             <svg className="w-6 h-4 svg text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 9-7 7-7-7" />
                             </svg>                        </div>
@@ -26,7 +26,7 @@ const Services = () => {
                     <img className='card-image ' src={design} alt="" />
                     <div className="content">
                         <div className='flex-col items-center flex justify-center '>
-                            <h1 className='text-2xl font-semibold my-1 sm:text-base'>UI/UX Designing</h1>
+                            <h1 className='text-base font-semibold my-1 md:text-1xl'>UI/UX Designing</h1>
                             <svg className="w-6 h-4 svg text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 9-7 7-7-7" />
                             </svg>                        </div>
@@ -37,7 +37,7 @@ const Services = () => {
                     <img className='card-image ' src={communication} alt="" />
                     <div className="content">
                         <div className='flex flex-col items-center justify-center '>
-                            <h1 className='text-2xl font-semibold my-1 sm:text-base'>Collaboration</h1>
+                            <h1 className='text-base font-semibold my-1 md:text-1xl'>Collaboration</h1>
                             <svg className="w-6 h-4 svg text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 9-7 7-7-7" />
                             </svg>                        </div>
@@ -48,7 +48,7 @@ const Services = () => {
                     <img className='card-image ' src={testing} alt="" />
                     <div className="content">
                         <div className='flex flex-col items-center justify-center '>
-                            <h1 className='text-2xl font-semibold my-1 sm:text-base'>Testing & Debugging</h1>
+                            <h1 className='text-base font-semibold my-1 md:text-1xl'>Testing & Debugging</h1>
                             <svg className="w-6 h-4 svg text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 9-7 7-7-7" />
                             </svg>                        </div>
@@ -59,7 +59,7 @@ const Services = () => {
                     <img className='card-image ' src={maintainence} alt="" />
                     <div className="content">
                         <div className='flex flex-col justify-center items-center'>
-                            <h1 className='text-2xl my-1 font-semibold  sm:text-base'>Maintainance & Support</h1>
+                            <h1 className='text-base my-1 font-semibold  md:text-1xl'>Maintainance & Support</h1>
                             <svg className="w-6 h-4 svg text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 9-7 7-7-7" />
                             </svg>
