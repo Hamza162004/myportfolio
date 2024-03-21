@@ -8,9 +8,9 @@ const Home = () => {
     <>
       <div className='h-[85vh] home flex justify-between items-center'>
         <div className="flex home-con flex-col items-center justify-center text-white px-16 " >
-          <div class="main">
+          <div className="main">
             <h1 className='h1'>Hi! I'm  Hamza Javed
-              <div class="roller">
+              <div className="roller">
                 <span id="rolltext">
                   MERN Developer<br />
                   Frontend Developer<br />
