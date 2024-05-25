@@ -18,7 +18,7 @@ const About = () => {
         <div className='w-[38rem] about-text text-white '>
             <h1 className='text-6xl mb-5 about-h1 font-semibold'>About Me</h1>
             <p className='text-lg font-medium about-p'>I am a dedicated web developer with expertise in both front-end and back-end technologies. I thrive on clean and efficient code, passionate to delivering high-quality, scalable solutions. Beyond technical expertise, I value open communication and collaboration, ensuring each project meets and exceeds expectations. Let's collaborate to turn your vision into a standout digital reality.</p>
-            <a href={cv} download="CV (Hamza Javed)" rel="noreferrer" target='_blank'><button className='bg-none cv border-2 font-mono py-2 px-3 text-xl w-44 cursor-pointer my-6 rounded-md hover:bg-purple-900 hover:text-white hover:border-purple-900 '>Download CV</button></a>
+            <a href={cv} download="Hamza Javed resume" rel="noreferrer" target='_blank'><button className='bg-none cv border-2 font-mono py-2 px-3 text-xl w-44 cursor-pointer my-6 rounded-md hover:bg-purple-900 hover:text-white hover:border-purple-900 '>Download CV</button></a>
         </div>
     </div>
     <div className='bg-black text-white font-mono py-2 flex items-center justify-evenly'>
