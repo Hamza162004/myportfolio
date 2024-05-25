@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/About.css'
 import working from '../img/about/mygif.gif'
-import cv from '../img/about/CV (Hamza Javed).pdf'
+import cv from '../img/about/Hamza Javed resume.pdf'
 import Skills from './Skills'
 import gmail from '../img/about/gmail.png'
 import contact from '../img/about/phone.png'
