@@ -1,6 +1,7 @@
 import React from 'react'
 import astronaut from '../img/home/astronaut.png'
 import '../css/Home.css'
+import {Link} from "react-router-dom"
 
 const Home = () => {
   
