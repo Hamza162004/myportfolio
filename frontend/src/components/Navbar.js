@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation,Link } from 'react-router-dom'
 import '../css/Navbar.css'
 import menu from '../img/home/burger-bar.png'
 
@@ -36,10 +36,10 @@ const Navbar = () => {
             <button onClick={display}><img className='menu w-8' src={menu} alt="" /></button>
         </div>
         <ul className={`${dis?'links-work':''} flex space-x-10 text-xl links`}>
-            <a href='/' className={`${location.pathname==='/'?'activetab':''} cursor-pointer hover:text-purple-700 hover:font-semibold hover:border-b-2 hover:border-purple-700`}  >Home</a>
-            <a href='/about' className={`${location.pathname==='/about'?'activetab':''} cursor-pointer hover:text-purple-700 hover:font-semibold hover:border-b-2 hover:border-purple-700`} >About</a>
-            <a href='/projects' className={`${location.pathname==='/projects'?'activetab':''} cursor-pointer hover:text-purple-700 hover:font-semibold hover:border-b-2 hover:border-purple-700`} >Projects</a>
-            <a href='/contact' className={`${location.pathname==='/contact'?'activetab':''} cursor-pointer hover:text-purple-700 hover:font-semibold hover:border-b-2 hover:border-purple-700`} >Contact Me</a>
+            <Link href='/' className={`${location.pathname==='/'?'activetab':''} cursor-pointer hover:text-purple-700 hover:font-semibold hover:border-b-2 hover:border-purple-700`}  >Home</Link>
+            <Link href='/about' className={`${location.pathname==='/about'?'activetab':''} cursor-pointer hover:text-purple-700 hover:font-semibold hover:border-b-2 hover:border-purple-700`} >About</Link>
+            <Link href='/projects' className={`${location.pathname==='/projects'?'activetab':''} cursor-pointer hover:text-purple-700 hover:font-semibold hover:border-b-2 hover:border-purple-700`} >Projects</Link>
+            <Link href='/contact' className={`${location.pathname==='/contact'?'activetab':''} cursor-pointer hover:text-purple-700 hover:font-semibold hover:border-b-2 hover:border-purple-700`} >Contact Me</Link>
         </ul>    
       </nav>
     </>
